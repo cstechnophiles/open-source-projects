@@ -46,7 +46,7 @@ Here the `repository_url` points to the fork of your repository.
 You can copy the `repository_url` by using the green `Clone` button from your forked repository page.
 
 - Once you have the `repository_url`, you can clone the repository. The final command will cook like 
-`git clone https://github.com/your-username/open-source-projects.git`
+`git clone https://github.com/your-cool-username/open-source-projects.git`
 
 This will create a new folder with a name same as `repository_name`
 `open-source-projects` in your case. Change your directory to the local repository using `cd open-source-projects` so you can work inside it.
@@ -74,11 +74,11 @@ Now, you can modify existing files or add new files to the project in your branc
 Once you have modified existing files or added new files to the project. Add the changes to the staging area, using 
 **`git add .`** or **`git add -A`**
 
-To record the changes made to the repository use 
+To finalize and record the changes made to the repository, use 
 **`git commit`** or **`git commit -m "commit message"`** as a shorthand.
 
 Make sure to type a meaningful commit message.
-_The commit message is very important as it explains to other contributors what the change is inside your branch. Commit messages are also used to look back into the record of the changes made to the project, and who made them._
+_The commit message is very important as it explains what the change is about. Commit messages are also used to look back into the record of the changes made to the project, and who made them._
 
 ### 5. Push changes to your forked repository
 To push these changes to your forked repository use
